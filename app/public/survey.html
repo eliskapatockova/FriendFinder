@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Survey</title>
 </head>
+
 <body>
-    <div class = "row">
-        <div class = "col-md-2"></div>
-        <div class = "col-md-8">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
             <h1>Survey</h1>
             <p>Take this quick survey to find your perfect match!</p>
             <form>
@@ -22,93 +25,170 @@
                     <input id="age" type="text" class="form-control" placeholder="Age (Required)">
                 </div>
                 
-                    <div class="form-group">
-                      <label for="profilePicture">Profile Picture</label>
-                      <input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
-                    </div>
+                <div class="form-group">
+                    <label for="profilePicture">Profile Picture</label>
+                    <input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
+                </div>
 
-                    <div class="form-group">
-                        <label for="outdoor">I like spending time outdoors</label>
-                        <select class="form-control" id="outdoor">
-                          <option>Strongly Agree</option>
-                          <option>Agree</option>
-                          <option>Neither Agree or Disagree</option>
-                          <option>Disagree</option>
-                          <option>Stringly Disagree</option>
-                        </select>
-                      </div>
 
-                      
+                <div class="form-group">
+                    <label for="outdoor">I like spending time outdoors</label>
+                    <select class="form-control" id="outdoor">
+                        <option value="1">Strongly Agree</option>
+                        <option value="2">Agree</option>
+                        <option value="3">Neutral</option>
+                        <option value="4">Disagree</option>
+                        <option value="5">Strongly Disagree</option>
+                    </select>
+                </div>
 
-                      <div class="form-group">
-                        <label for="workout">I like to work out</label>
-                        <select class="form-control" id="workout">
-                          <option>Strongly Agree</option>
-                          <option>Agree</option>
-                          <option>Neither Agree or Disagree</option>
-                          <option>Disagree</option>
-                          <option>Stringly Disagree</option>
-                        </select>
-                      </div>
 
-                      <div class="form-group">
-                        <label for="dog">I'm a big dog person</label>
-                        <select class="form-control" id="dog">
-                          <option>Strongly Agree</option>
-                          <option>Agree</option>
-                          <option>Neither Agree or Disagree</option>
-                          <option>Disagree</option>
-                          <option>Stringly Disagree</option>
-                        </select>
-                      </div>
 
-                      <div class="form-group">
-                        <label for="dog">I love pineapple on pizza</label>
-                        <select class="form-control" id="dog">
-                          <option>Strongly Agree</option>
-                          <option>Agree</option>
-                          <option>Neither Agree or Disagree</option>
-                          <option>Disagree</option>
-                          <option>Stringly Disagree</option>
-                        </select>
-                      </div>
+                <div class="form-group">
+                    <label for="workout">I like to work out</label>
+                    <select class="form-control" id="workout">
+                        <option value="1">Strongly Agree</option>
+                        <option value="2">Agree</option>
+                        <option value="3">Neutral</option>
+                        <option value="4">Disagree</option>
+                        <option value="5">Strongly Disagree</option>
+                    </select>
+                </div>
 
-                      <div class="form-group">
-                        <label for="cook">I like to cook</label>
-                        <select class="form-control" id="cook">
-                          <option>Strongly Agree</option>
-                          <option>Agree</option>
-                          <option>Neither Agree or Disagree</option>
-                          <option>Disagree</option>
-                          <option>Stringly Disagree</option>
-                        </select>
-                      </div>
+                <div class="form-group">
+                    <label for="dog">I'm a big dog person</label>
+                    <select class="form-control" id="dog">
+                        <option value="1">Strongly Agree</option>
+                        <option value="2">Agree</option>
+                        <option value="3">Neutral</option>
+                        <option value="4">Disagree</option>
+                        <option value="5">Strongly Disagree</option>
+                    </select>
+                </div>
 
-                      <div class="form-group">
-                        <label for="dog">I am a morning person</label>
-                        <select class="form-control" id="dog">
-                          <option>Strongly Agree</option>
-                          <option>Agree</option>
-                          <option>Neither Agree or Disagree</option>
-                          <option>Disagree</option>
-                          <option>Stringly Disagree</option>
-                        </select>
-                      </div>
-                  
-                      <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="form-group">
+                    <label for="pizza">I love pineapple on pizza</label>
+                    <select class="form-control" id="pizza">
+                        <option value="1">Strongly Agree</option>
+                        <option value="2">Agree</option>
+                        <option value="3">Neutral</option>
+                        <option value="4">Disagree</option>
+                        <option value="5">Strongly Disagree</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="cook">I like to cook</label>
+                    <select class="form-control" id="cook">
+                        <option value="1">Strongly Agree</option>
+                        <option value="2">Agree</option>
+                        <option value="3">Neutral</option>
+                        <option value="4">Disagree</option>
+                        <option value="5">Strongly Disagree</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="morning">I am a morning person</label>
+                    <select class="form-control" id="morning">
+                        <option value="1">Strongly Agree</option>
+                        <option value="2">Agree</option>
+                        <option value="3">Neutral</option>
+                        <option value="4">Disagree</option>
+                        <option value="5">Strongly Disagree</option>
+                    </select>
+                </div>
+
+                <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
             </form>
 
         </div>
-        <div class = "col-md-2"></div>
+        <div class="col-md-2"></div>
 
     </div>
 
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal Content-->
+          <div class="modal-content">
+
+            <!-- "X" Button to close the modal -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title"><strong>Meet Your New Friend!</strong></h2>
+            </div>
+
+            <!-- Modal Body (For Match Info) -->
+            <div class="modal-body">
+              <h2 id="matchName"></h2>
+              <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+            </div>
+
+            <!-- Modal Footer (Close Button) -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
 
 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    <script type="text/javascript">
+
+        $("#submitBtn").on("click", function (event) {
+            event.preventDefault();
+            var validInput = true;
+
+            if ($("#name").val() == "" || $("#age").val() == "" || $("#photo").val() == "") {
+                valid = false;
+            }
+            if (validInput) {
+                var newUser = {
+                    name: $("#name").val(),
+                    age: $("#age").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        $("#outdoor").val(),
+                        $("#workout").val(),
+                        $("#dog").val(),
+                        $("#pizza").val(),
+                        $("#cook").val(),
+                        $("#morning").val()
+                    ]
+                };
+
+                var currentURL = window.location.origin;
+                $.post(currentURL + "/api/friends", newUser, function (data) {
+
+                    // Add Best Match attributes to Modal
+                    $('#matchName').text(data.name);
+                    $('#matchImg').attr('src', data.photo);
+
+                    // Show the modal with the best match 
+                    $("#resultsModal").modal("show");
+
+                }); // end AJAX POST
+
+
+            }
+            else {
+                alert("SURVEY INCOMPLETE");
+            }
+
+        });
+
+
+    </script>
 </body>
+
 </html>
